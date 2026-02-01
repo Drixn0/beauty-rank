@@ -1,0 +1,19 @@
+/* ✅ 项目全局样式（Rank 榜单专用） */
+
+@import "./base.css";
+
+/* ❌ 删除 Vue 默认 max-width/grid 居中 */
+#app {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* 全局 body 背景铺满 */
+body {
+  margin: 0;
+  padding: 0;
+  background: #fef7f9;
+  min-height: 100vh;
+}

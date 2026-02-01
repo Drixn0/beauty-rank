@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "小仙女美妆",
+      "totalOrders": 258,
+      "totalPromotion": 50000
+    },
+    {
+      "id": 2,
+      "name": "美妆达人Lily",
+      "totalOrders": 198,
+      "totalPromotion": 43000
+    },
+    {
+      "id": 3,
+      "name": "彩妆教主",
+      "totalOrders": 175,
+      "totalPromotion": 39000
+    },
+    {
+      "id": 4,
+      "name": "美妆博主CC",
+      "totalOrders": 162,
+      "totalPromotion": 26910
+    },
+    {
+      "id": 5,
+      "name": "彩妆教主",
+      "totalOrders": 148,
+      "totalPromotion": 39000
+    },
+    {
+      "id": 6,
+      "name": "李大宝",
+      "totalOrders": 58,
+      "totalPromotion": 26910
+    },
+    {
+      "id": 7,
+      "name": "李二宝",
+      "totalOrders": 55,
+      "totalPromotion": 5247
+    }
+  ],
+  "config": {
+    "prizes": {
+      "1": 5000000,
+      "2": 1200000,
+      "3": 500000,
+      "4-20": 50000,
+      "21-100": 5000
+    },
+    "extraRewards": [
+      {
+        "id": 1,
+        "name": "达成奖",
+        "enabled": true,
+        "type": "orders_gte",
+        "threshold": 9,
+        "amount_type": "fixed",
+        "amount": 1000,
+        "stackable": true
+      },
+      {
+        "id": 2,
+        "name": "里程碑奖",
+        "enabled": true,
+        "type": "orders_step",
+        "step": 100,
+        "amount_type": "per_step",
+        "amount": 15000,
+        "stackable": true
+      },
+      {
+        "id": 3,
+        "name": "卓越奖",
+        "enabled": true,
+        "type": "orders_gte",
+        "threshold": 1000,
+        "amount_type": "fixed",
+        "amount": 100000,
+        "stackable": true
+      },
+      {
+        "id": 4,
+        "name": "年终奖",
+        "enabled": true,
+        "type": "promotion_percent_rank_le",
+        "rank_le": 100,
+        "percent": 5,
+        "amount_type": "percent",
+        "stackable": true
+      }
+    ],
+    "rulesText": " 第 1 名：500万22222222222\n22222222222222\n222222222222\n22222222222",
+    "rulesSections": {
+      "base": "🏆 第 1 名：500万\n🥈 第 2 名：120万\n🥉 第 3 名：500,000元\n⭐ 第 4-20 名：50,000元\n💗 第 21-100 名：5,000元",
+      "extra": "**达成奖:** 累计10单即可获得980元奖金\n**里程碑奖:** 每满100单可获得15,000元奖金\n**卓越奖:** 满1000单额外获得100,000元奖金\n**年终奖:** 活动结束后，排名前100名的达人可获得推广金总额5%的年终奖",
+      "pool": "",
+      "rank": "",
+      "notice": "所有奖金将在活动结束后统一发放\n数据以系统统计为准，如有疑问请联系客服\n禁止任何形式的刷单行为，一经发现取消资格\n本公司保留对活动规则的最终解释权\n上午呃呃简单的"
+    }
+  }
+}
